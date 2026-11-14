@@ -1,0 +1,54 @@
+[
+  {
+    "leadId": "SCF-LEAD-224045",
+    "date": "14/11/2026",
+    "time": "05:23 pm",
+    "name": "Nithya",
+    "phone": "9345314233",
+    "email": "nithyasri1626@gmail.com",
+    "course": "PG Diploma in Montessori Teacher Training [Offline / Campus]",
+    "message": "I need join",
+    "sourcePage": "/",
+    "status": "NEW",
+    "timestamp": 1794657224045
+  },
+  {
+    "leadId": "SCF-LEAD-144427",
+    "date": "14/11/2026",
+    "time": "05:22 pm",
+    "name": "Kavitha Ramesh (Live Check)",
+    "phone": "9841098765",
+    "email": "kavitha.ramesh@gmail.com",
+    "course": "Montessori Early Childhood Education [Campus / Regular]",
+    "message": "Checking live reflection on Google Sheets",
+    "sourcePage": "/courses",
+    "status": "NEW",
+    "timestamp": 1794657144427
+  },
+  {
+    "leadId": "SCF-LEAD-375677",
+    "date": "14/11/2026",
+    "time": "05:09 pm",
+    "name": "Priya Sharma (Website Visitor)",
+    "phone": "9840123456",
+    "email": "priyasharma.test@gmail.com",
+    "course": "International Montessori Primary Diploma [Weekend Batch]",
+    "message": "Interested in fee structure and upcoming batch details",
+    "sourcePage": "/courses",
+    "status": "NEW",
+    "timestamp": 1794656375677
+  },
+  {
+    "leadId": "SCF-LEAD-739922",
+    "date": "14/11/2026",
+    "time": "03:35 pm",
+    "name": "balaji N",
+    "phone": "9360375530",
+    "email": "balajinarayanan13@gmail.com",
+    "course": "PG Diploma in Montessori Teacher Training [Offline / Campus]",
+    "message": "super crown",
+    "sourcePage": "/",
+    "status": "NEW",
+    "timestamp": 1794650739922
+  }
+]

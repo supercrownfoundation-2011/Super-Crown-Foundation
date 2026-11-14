@@ -1,0 +1,411 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #3C2350;
+    --primary-dark: #291735;
+    --primary-light: #F3EEF6;
+    --accent-gold: #C9A227;
+    --accent-light: #FBF4E4;
+    --background: #FFFFFF;
+    --surface-warm: #FAF8F5;
+    --surface-lavender: #F3EEF6;
+    --text-primary: #241828;
+    --text-secondary: #665D69;
+    --border: #E6E0E8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+    max-width: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    font-family: var(--font-sans), 'DM Sans', sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    overflow-x: clip;
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading), 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Glassmorphism Header */
+.glass-header {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Modern SaaS Utilities */
+.saas-card {
+  background: #ffffff;
+  border: 1px solid #E6E0E8;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px -5px rgba(60, 35, 80, 0.04), 0 4px 12px -2px rgba(60, 35, 80, 0.02);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.saas-card:hover {
+  border-color: rgba(201, 162, 77, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(60, 35, 80, 0.09), 0 8px 16px -4px rgba(60, 35, 80, 0.04);
+  transform: translateY(-4px);
+}
+
+.saas-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 1rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, rgba(60, 35, 80, 0.06), rgba(201, 162, 77, 0.12));
+  border: 1px solid rgba(201, 162, 77, 0.3);
+  color: #3C2350;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.saas-btn-primary {
+  background: linear-gradient(135deg, #3C2350 0%, #291735 100%);
+  color: #ffffff;
+  border-radius: 0.875rem;
+  box-shadow: 0 8px 20px -4px rgba(60, 35, 80, 0.3);
+  transition: all 0.3s ease;
+}
+
+.saas-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 25px -4px rgba(60, 35, 80, 0.4);
+  background: linear-gradient(135deg, #4A2B63 0%, #301B3E 100%);
+}
+
+.saas-btn-secondary {
+  background: #ffffff;
+  color: #3C2350;
+  border: 1px solid #E6E0E8;
+  border-radius: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.saas-btn-secondary:hover {
+  border-color: #3C2350;
+  background: #F3EEF6;
+  color: #3C2350;
+}
+
+/* Fine Borders & Accents */
+.hairline-b {
+  border-bottom: 1px solid #E6E0E8;
+}
+
+.hairline-t {
+  border-top: 1px solid #E6E0E8;
+}
+
+/* Animations & Micro-Interactions */
+.transition-soft {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+
+@keyframes shimmerSweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(201, 162, 77, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(201, 162, 77, 0.5);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.gold-glow {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+
+/* Hover Micro-Interactions */
+.hover-lift {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -12px rgba(60, 35, 80, 0.12);
+}
+
+.hover-scale-img img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-scale-img:hover img {
+  transform: scale(1.06);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Smooth micro-interactions & keyboard focus outlines */
+button, a, [role="button"] {
+  outline: none;
+}
+
+button:focus-visible, a:focus-visible, [role="button"]:focus-visible {
+  outline: 2px solid #3C2350;
+  outline-offset: 2px;
+}
+
+/* Accessible focus ring for dark backgrounds */
+.dark-focus:focus-visible {
+  outline: 2px solid #C9A227;
+  outline-offset: 2px;
+}
+
+/* Continuous Infinite Trust Ticker */
+@keyframes tickerScroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-ticker {
+  display: flex;
+  flex-shrink: 0;
+  width: max-content;
+  will-change: transform;
+  animation: tickerScroll 42s linear infinite;
+}
+
+.ticker-container:hover .animate-ticker {
+  animation-play-state: paused;
+}
+
+@media (max-width: 640px) {
+  .animate-ticker {
+    animation-duration: 32s;
+  }
+}
+
+/* Continuous Vertical Testimonial Wall Marquee */
+@keyframes marqueeVerticalUp {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes marqueeVerticalDown {
+  0% {
+    transform: translate3d(0, -50%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-marquee-up-fast {
+  animation: marqueeVerticalUp 28s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-down-mid {
+  animation: marqueeVerticalDown 34s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-up-slow {
+  animation: marqueeVerticalUp 31s linear infinite;
+  will-change: transform;
+}
+
+.marquee-wall:hover .animate-marquee-up-fast,
+.marquee-wall:hover .animate-marquee-down-mid,
+.marquee-wall:hover .animate-marquee-up-slow,
+.marquee-wall:focus-within .animate-marquee-up-fast,
+.marquee-wall:focus-within .animate-marquee-down-mid,
+.marquee-wall:focus-within .animate-marquee-up-slow {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee-up-fast,
+  .animate-marquee-down-mid,
+  .animate-marquee-up-slow {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Reduced Motion Override for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-ticker {
+    animation: none !important;
+    transform: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   LENIS SMOOTH SCROLL & LUXURY SCROLLBAR STYLING
+   ========================================================================== */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Luxury Institutional Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A227;
+  border-radius: 9999px;
+  border: 2px solid #FAF8F5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A77B20;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #C9A227 #FAF8F5;
+}
+
+/* ==========================================================================
+   TEXT REVEAL ANIMATION CLASSES
+   ========================================================================== */
+.text-mask {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-mask-inner {
+  display: inline-block;
+  transform: translateY(115%);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.8s ease-out;
+}
+
+.text-mask-inner.is-revealed {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
