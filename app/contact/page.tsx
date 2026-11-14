@@ -1,10 +1,26 @@
 import React from "react";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CounsellingForm from "@/components/CounsellingForm";
 import { MapPin, Phone, Mail, Clock, MessageSquare, ExternalLink, Navigation } from "lucide-react";
 import { CONTACT_INFO } from "@/data/contactData";
 import { InstagramIcon, FacebookIcon, LinkedinIcon, YoutubeIcon } from "@/components/SocialIcons";
+
+export const metadata: Metadata = {
+  title: "Contact Us & Campus Admissions",
+  description:
+    "Contact Super Crown Foundation in Ambattur, Chennai. Enquire about admissions, batch timings, course fees, or schedule a campus visit for Montessori teacher training.",
+  openGraph: {
+    title: "Contact Super Crown Foundation | Ambattur, Chennai",
+    description:
+      "Get in touch with admissions counselors for course details, fee structures, and campus visits. Call +91 96001 51377 or visit our Ambattur campus.",
+    url: "/contact",
+  },
+  alternates: {
+    canonical: "/contact",
+  },
+};
 
 export default function ContactPage() {
   return (

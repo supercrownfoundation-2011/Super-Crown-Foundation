@@ -1,4 +1,5 @@
 import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -14,6 +15,21 @@ import {
   Star,
   Quote,
 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About Us | Super Crown Foundation",
+  description:
+    "Learn about Super Crown Foundation's 16+ year legacy, authentic Montessori philosophy, vision, mission, and commitment to empowering women through international early childhood educator training.",
+  openGraph: {
+    title: "About Super Crown Foundation | Legacy & Montessori Philosophy",
+    description:
+      "16+ years of excellence in Montessori teacher education, guiding over 5,000+ graduates across India and internationally.",
+    url: "/about",
+  },
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 export default function AboutPage() {
   const coreValues = [

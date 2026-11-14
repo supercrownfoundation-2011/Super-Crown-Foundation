@@ -1,9 +1,25 @@
 import React from "react";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import CounsellingForm from "@/components/CounsellingForm";
 import { BookOpen, Sparkles } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Montessori Teacher Training Programs & Diplomas",
+  description:
+    "Explore internationally recognized Montessori teacher training diplomas, certifications in English Phonics, Vedic Maths, Child Psychology, and classroom leadership at Super Crown Foundation.",
+  openGraph: {
+    title: "Montessori Teacher Training Programs | Super Crown Foundation",
+    description:
+      "Accredited Early Childhood and Primary Montessori Teacher Training diplomas with 200+ hours of practical apparatus training and 100% placement support.",
+    url: "/courses",
+  },
+  alternates: {
+    canonical: "/courses",
+  },
+};
 
 export default function CoursesPage() {
   return (

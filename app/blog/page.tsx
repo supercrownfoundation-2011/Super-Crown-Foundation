@@ -1,8 +1,24 @@
 import React from "react";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { ArrowRight, Calendar, User, BookOpen } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Montessori Education Blog & Insights",
+  description:
+    "Educational articles, parenting tips, Montessori classroom methodologies, and child development research published by Super Crown Foundation master educators.",
+  openGraph: {
+    title: "Montessori Insights & Blog | Super Crown Foundation",
+    description:
+      "Deepen your understanding of early childhood pedagogy, prepared environments, and child development with insights from Super Crown educators.",
+    url: "/blog",
+  },
+  alternates: {
+    canonical: "/blog",
+  },
+};
 
 export default function BlogPage() {
   const articles = [
