@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://supercrownfoundation.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.supercrownfoundation.com"),
   title: {
     default: "Super Crown Foundation | International Montessori Teacher Training",
     template: "%s | Super Crown Foundation",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://supercrownfoundation.com",
+    url: "https://www.supercrownfoundation.com",
     siteName: "Super Crown Foundation",
     title: "Super Crown Foundation | International Montessori Teacher Training",
     description:
@@ -102,8 +102,8 @@ const jsonLd = {
   "@type": "EducationalOrganization",
   name: "Super Crown Foundation",
   alternateName: "Super Crown International Montessori Teacher Training School",
-  url: "https://supercrownfoundation.com",
-  logo: "https://supercrownfoundation.com/logo.png",
+  url: "https://www.supercrownfoundation.com",
+  logo: "https://www.supercrownfoundation.com/logo.png",
   description:
     "An internationally recognized educational institution and charitable trust offering rigorous Montessori teacher training, diploma certifications, and women empowerment through education.",
   address: {
