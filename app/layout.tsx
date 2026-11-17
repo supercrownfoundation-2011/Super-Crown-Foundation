@@ -24,8 +24,10 @@ export const viewport: Viewport = {
   themeColor: "#3C2350",
 };
 
+const siteUrl = "https://www.supercrownfoundation.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.supercrownfoundation.com"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Super Crown Foundation | International Montessori Teacher Training",
     template: "%s | Super Crown Foundation",
