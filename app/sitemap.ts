@@ -1,10 +1,11 @@
 import { MetadataRoute } from "next";
+import { DETAILED_COURSES } from "@/data/courseDetails";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = "https://www.supercrownfoundation.com";
   const now = new Date();
 
-  return [
+  const coreRoutes: MetadataRoute.Sitemap = [
     {
       url: `${siteUrl}`,
       lastModified: now,
@@ -48,4 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
   ];
+
+  const courseRoutes: MetadataRoute.Sitemap = Object.keys(DETAILED_COURSES).map((slug) => ({
+    url: `${siteUrl}/courses/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
+  return [...coreRoutes, ...courseRoutes];
 }

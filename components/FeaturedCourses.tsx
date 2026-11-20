@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { ArrowRight, CheckCircle2, GraduationCap, Award, BookOpen } from "lucide-react";
 import { MONTESSORI_DIPLOMAS, PROFESSIONAL_CERTIFICATIONS } from "@/data/courses";
 import CounsellingModal from "./CounsellingModal";
@@ -77,12 +78,19 @@ export default function FeaturedCourses() {
                       </div>
                     </div>
 
-                    <div className="pt-6 border-t border-[#3C2350]/10 flex items-center justify-between">
+                    <div className="pt-6 border-t border-[#3C2350]/10 flex flex-wrap items-center justify-between gap-3">
+                      <Link
+                        href={`/courses/${prog.id}`}
+                        className="inline-flex items-center gap-1.5 text-xs font-bold text-[#3C2350] hover:text-[#C9A227] transition-colors"
+                      >
+                        View Full Syllabus & Details
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </Link>
                       <button
                         onClick={() => handleEnquire(prog.title)}
-                        className="w-full sm:w-auto inline-flex items-center justify-center bg-[#3C2350] text-white px-8 py-3.5 rounded-xl font-sans text-xs tracking-wider uppercase font-extrabold hover:bg-[#291735] transition-all shadow-sm gap-2 cursor-pointer active:scale-95"
+                        className="w-full sm:w-auto inline-flex items-center justify-center bg-[#3C2350] text-white px-6 py-3 rounded-xl font-sans text-xs tracking-wider uppercase font-extrabold hover:bg-[#291735] transition-all shadow-sm gap-2 cursor-pointer active:scale-95"
                       >
-                        Enquire About This Course
+                        Enquire Now
                         <ArrowRight className="w-4 h-4 text-[#C9A227]" />
                       </button>
                     </div>
@@ -136,15 +144,18 @@ export default function FeaturedCourses() {
                       </p>
                     </div>
 
-                    <div className="pt-4 border-t border-[#E6E0E8] flex items-center justify-between">
-                      <span className="font-sans text-[11px] font-bold text-[#3C2350] bg-[#F3EEF6] px-3 py-1 rounded-full border border-[#E6E0E8]">
-                        Skill Certification
-                      </span>
+                    <div className="pt-4 border-t border-[#E6E0E8] flex items-center justify-between gap-2">
+                      <Link
+                        href={`/courses/${cert.id}`}
+                        className="inline-flex items-center gap-1 text-xs font-bold text-[#3C2350] hover:text-[#C9A227] transition-colors"
+                      >
+                        Details <ArrowRight className="w-3.5 h-3.5 text-[#C9A227]" />
+                      </Link>
                       <button
                         onClick={() => handleEnquire(cert.title)}
-                        className="inline-flex items-center gap-1.5 text-xs font-extrabold text-[#3C2350] hover:text-[#C9A227] transition-colors cursor-pointer group-hover:translate-x-0.5 transition-transform"
+                        className="inline-flex items-center gap-1.5 text-xs font-extrabold text-[#3C2350] bg-[#F3EEF6] px-3.5 py-1.5 rounded-xl border border-[#E6E0E8] hover:bg-[#3C2350] hover:text-white transition-all cursor-pointer shadow-2xs"
                       >
-                        Enquire Now <ArrowRight className="w-3.5 h-3.5 text-[#C9A227]" />
+                        Enquire Now
                       </button>
                     </div>
                   </div>

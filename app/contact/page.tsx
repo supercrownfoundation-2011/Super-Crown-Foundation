@@ -8,9 +8,16 @@ import { CONTACT_INFO } from "@/data/contactData";
 import { InstagramIcon, FacebookIcon, LinkedinIcon, YoutubeIcon } from "@/components/SocialIcons";
 
 export const metadata: Metadata = {
-  title: "Contact Us & Campus Admissions",
+  title: "Contact Us & Campus Admissions | Super Crown Foundation Chennai",
   description:
-    "Contact Super Crown Foundation in Ambattur, Chennai. Enquire about admissions, batch timings, course fees, or schedule a campus visit for Montessori teacher training.",
+    "Contact Super Crown Foundation in Ambattur, Chennai. Enquire about Montessori teacher training admissions, batch timings, course fees, or schedule a campus visit. Call +91 96001 51377.",
+  keywords: [
+    "Montessori teacher training institute in Ambattur",
+    "Teacher training center near me Chennai",
+    "Montessori training admissions Chennai",
+    "Super Crown Foundation contact number",
+    "Teacher training institute Ambattur",
+  ],
   openGraph: {
     title: "Contact Super Crown Foundation | Ambattur, Chennai",
     description:
@@ -22,9 +29,41 @@ export const metadata: Metadata = {
   },
 };
 
+const CONTACT_FAQS = [
+  {
+    question: "Where is Super Crown Foundation campus located in Chennai?",
+    answer: "Our main training campus and practical Montessori laboratory is located at No 16 & 17A, Old Twp Rd, Secretariat Colony, Venkatapuram, Ambattur, Chennai, Tamil Nadu 600053.",
+  },
+  {
+    question: "How can I schedule a campus visit or practical lab demo in Ambattur?",
+    answer: "You can call our admissions counseling desk directly at +91 96001 51377 or WhatsApp us to schedule a walk-in visit from Monday to Saturday, 9:00 AM to 6:00 PM.",
+  },
+  {
+    question: "What are the office timings and admission contact numbers?",
+    answer: "Our administrative office operates Monday through Saturday from 9:00 AM to 6:00 PM. Helplines: +91 96001 51377 and +91 86670 43942.",
+  },
+];
+
+const jsonLdFaq = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: CONTACT_FAQS.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+      />
       <Navbar />
       <main className="flex-grow pt-[90px]">
         {/* Page Header */}
