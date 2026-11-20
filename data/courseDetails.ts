@@ -33,7 +33,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Diploma in Montessori Teacher Training",
     category: "Montessori Teacher Training",
     badge: "Foundational Diploma",
-    metaTitle: "Diploma in Montessori Teacher Training in Chennai | Super Crown Foundation",
+    metaTitle: "Diploma in Montessori Teacher Training in Chennai",
     metaDescription: "Enrol in Chennai's premier Diploma in Montessori Teacher Training at Super Crown Foundation, Ambattur. Practical sensorial apparatus lab, international certification, and 100% placement guidance.",
     keywords: [
       "Diploma in Montessori Teacher Training Chennai",
@@ -131,7 +131,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "PG Diploma in Montessori Teacher Training",
     category: "Montessori Teacher Training",
     badge: "Advanced Leadership Diploma",
-    metaTitle: "Post Graduate Diploma in Montessori Teacher Training Chennai | Super Crown Foundation",
+    metaTitle: "Post Graduate Diploma in Montessori Teacher Training Chennai",
     metaDescription: "Advance your educational career with the Post Graduate Diploma in Montessori Teacher Training at Super Crown Foundation Chennai. Leadership, curriculum planning, and 100% placement.",
     keywords: [
       "PG Diploma in Montessori Teacher Training Chennai",
@@ -229,7 +229,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "English Phonics Teacher Training",
     category: "Skill Certification",
     badge: "High Demand Certification",
-    metaTitle: "English Phonics Teacher Training Course in Chennai | Super Crown Foundation",
+    metaTitle: "English Phonics Teacher Training Course in Chennai",
     metaDescription: "Master synthetic phonics, 44 speech sounds, blending, and reading pedagogy with the English Phonics Teacher Training Course at Super Crown Foundation, Chennai.",
     keywords: [
       "English Phonics Teacher Training Chennai",
@@ -322,7 +322,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Vedic Maths Teacher Training",
     category: "Skill Certification",
     badge: "Fast-Track Mathematics",
-    metaTitle: "Vedic Maths Teacher Training Course Chennai | Super Crown Foundation",
+    metaTitle: "Vedic Maths Teacher Training Course Chennai",
     metaDescription: "Master 16 Vedic Sutras, mental arithmetic shortcuts, high-speed calculation, and teaching pedagogy with Vedic Maths Teacher Certification in Chennai.",
     keywords: [
       "Vedic Maths Teacher Training Chennai",
@@ -415,7 +415,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Child Psychology for Teachers",
     category: "Skill Certification",
     badge: "Educator Essential",
-    metaTitle: "Child Psychology Course for Teachers Chennai | Super Crown Foundation",
+    metaTitle: "Child Psychology Course for Teachers Chennai",
     metaDescription: "Understand early childhood behavioral milestones, emotional regulation, and developmental psychology with Child Psychology Certification at Super Crown Foundation.",
     keywords: [
       "Child Psychology course for teachers Chennai",
@@ -504,7 +504,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Handwriting Teacher Training",
     category: "Skill Certification",
     badge: "Motor Skills Mastery",
-    metaTitle: "Handwriting Teacher Training Certification Chennai | Super Crown Foundation",
+    metaTitle: "Handwriting Teacher Training Certification Chennai",
     metaDescription: "Master pencil grip corrections, print-to-cursive transition, stroke geometry, and speed handwriting instruction at Super Crown Foundation Chennai.",
     keywords: [
       "Handwriting Teacher Training Chennai",
@@ -592,7 +592,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Classroom Management Certification",
     category: "Skill Certification",
     badge: "Classroom Leadership",
-    metaTitle: "Classroom Management Teacher Certification Chennai | Super Crown Foundation",
+    metaTitle: "Classroom Management Teacher Certification Chennai",
     metaDescription: "Master Montessori positive discipline, structured learning zones, conflict resolution, and calm classroom architecture with Super Crown Foundation in Chennai.",
     keywords: [
       "Classroom Management certification Chennai",
@@ -662,7 +662,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Storytelling Techniques for Educators",
     category: "Skill Certification",
     badge: "Creative Pedagogy",
-    metaTitle: "Storytelling Teacher Training Course in Chennai | Super Crown Foundation",
+    metaTitle: "Storytelling Teacher Training Course in Chennai",
     metaDescription: "Learn expressive voice modulation, puppetry, dramatisation, and emotional narrative engagement with Storytelling Certification at Super Crown Foundation.",
     keywords: [
       "Storytelling course for teachers Chennai",
@@ -731,7 +731,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Learning Disability Awareness Certification",
     category: "Skill Certification",
     badge: "Inclusive Education",
-    metaTitle: "Learning Disability Awareness Course for Teachers Chennai | Super Crown Foundation",
+    metaTitle: "Learning Disability Awareness Course for Teachers Chennai",
     metaDescription: "Recognize early signs of Dyslexia, ADHD, and Dyscalculia, and deploy inclusive Montessori accommodations with Super Crown Foundation Chennai.",
     keywords: [
       "Learning disability teacher training Chennai",
@@ -800,7 +800,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Teaching Aids Preparation Workshop",
     category: "Skill Certification",
     badge: "Hands-on Craftsmanship",
-    metaTitle: "Teaching Aids Preparation Montessori Workshop Chennai | Super Crown Foundation",
+    metaTitle: "Teaching Aids Preparation Montessori Workshop Chennai",
     metaDescription: "Learn to design, craft, and curate authentic Montessori sensorial apparatus, DIY manipulatives, and flashcards at Super Crown Foundation Chennai.",
     keywords: [
       "Teaching aids preparation course Chennai",
@@ -869,7 +869,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Personality Development for Educators",
     category: "Skill Certification",
     badge: "Professional Excellence",
-    metaTitle: "Personality Development for Teachers Course Chennai | Super Crown Foundation",
+    metaTitle: "Personality Development for Teachers Course Chennai",
     metaDescription: "Elevate your professional confidence, public speaking, body language, interview presentation, and voice projection with Super Crown Foundation Chennai.",
     keywords: [
       "Personality development for teachers Chennai",
@@ -938,7 +938,7 @@ export const DETAILED_COURSES: Record<string, CourseDetail> = {
     title: "Parenting Skills & Positive Guidance",
     category: "Skill Certification",
     badge: "Family & Child Guidance",
-    metaTitle: "Parenting Skills Certification Course Chennai | Super Crown Foundation",
+    metaTitle: "Parenting Skills Certification Course Chennai",
     metaDescription: "Bridge home and school with positive reinforcement, screen time moderation, tantrum management, and empathetic child bonding at Super Crown Foundation.",
     keywords: [
       "Parenting skills workshop Chennai",

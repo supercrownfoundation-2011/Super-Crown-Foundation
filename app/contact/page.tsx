@@ -8,7 +8,7 @@ import { CONTACT_INFO } from "@/data/contactData";
 import { InstagramIcon, FacebookIcon, LinkedinIcon, YoutubeIcon } from "@/components/SocialIcons";
 
 export const metadata: Metadata = {
-  title: "Contact Us & Campus Admissions | Super Crown Foundation Chennai",
+  title: "Contact Us & Campus Admissions in Ambattur, Chennai",
   description:
     "Contact Super Crown Foundation in Ambattur, Chennai. Enquire about Montessori teacher training admissions, batch timings, course fees, or schedule a campus visit. Call +91 96001 51377.",
   keywords: [
