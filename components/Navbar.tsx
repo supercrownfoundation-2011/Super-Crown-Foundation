@@ -150,6 +150,9 @@ export default function Navbar() {
               <span className="text-[8px] sm:text-[10px] md:text-[11px] font-sans font-extrabold tracking-[0.18em] text-[#C9A227] uppercase">
                 FOUNDATION
               </span>
+              <span className="text-[7px] sm:text-[8px] md:text-[9px] font-sans font-extrabold tracking-[0.16em] text-[#7E6A8A] uppercase mt-0.5">
+                SINCE 2011
+              </span>
             </div>
           </Link>
 
@@ -237,6 +240,9 @@ export default function Navbar() {
                 <span className="text-[8px] sm:text-[9px] font-sans font-extrabold tracking-[0.18em] text-[#C9A227] uppercase">
                   FOUNDATION
                 </span>
+                <span className="text-[7px] sm:text-[8px] font-sans font-extrabold tracking-[0.16em] text-[#7E6A8A] uppercase mt-0.5">
+                  SINCE 2011
+                </span>
               </div>
             </Link>
 
@@ -303,11 +309,11 @@ export default function Navbar() {
                 <Phone className="w-3.5 h-3.5 text-[#C9A227] shrink-0" />
                 <span>Call: </span>
                 <a href="tel:+919600151377" className="text-[#3C2350] hover:text-[#C9A227] font-bold">
-                  96001 51377
+                  +91 96001 51377
                 </a>
                 <span>/</span>
                 <a href="tel:+918667043942" className="text-[#3C2350] hover:text-[#C9A227] font-bold">
-                  086670 43942
+                  +91 86670 43942
                 </a>
               </div>
 

@@ -156,37 +156,48 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
               
               {/* Left Column Uploaded Founder Image */}
-              <div className="lg:col-span-5 relative rounded-3xl overflow-hidden border border-[#E6E0E8] bg-white shadow-xl min-h-[300px] h-[360px] sm:h-[500px]">
+              <div className="lg:col-span-5 relative rounded-3xl overflow-hidden border border-[#E6E0E8] bg-white shadow-xl min-h-[300px] h-[360px] sm:h-[500px] group">
                 <img
                   src="/images/founder.jpg"
-                  alt="Founder of Super Crown Foundation"
-                  className="w-full h-full object-cover object-top"
+                  alt="Mrs. Rani Rajendran - Founder of Super Crown Foundation"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#3C2350]/90 via-[#3C2350]/50 to-transparent p-6 text-white">
+                  <p className="font-heading font-extrabold text-xl text-white">Mrs. Rani Rajendran</p>
+                  <p className="font-sans text-xs text-[#C9A227] font-bold uppercase tracking-wider">Founder &amp; Directress</p>
+                </div>
               </div>
 
               {/* Right Column Text & Quote Box */}
               <div className="lg:col-span-7 flex flex-col gap-6">
-                <span className="font-sans text-xs font-extrabold uppercase text-[#C9A227] tracking-wider block">
-                  — OUR FOUNDER
-                </span>
+                <div>
+                  <span className="font-sans text-xs font-extrabold uppercase text-[#C9A227] tracking-wider block mb-2">
+                    — OUR FOUNDER
+                  </span>
+                  <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#3C2350] leading-tight tracking-tight">
+                    Mrs. Rani Rajendran
+                  </h2>
+                  <p className="font-sans text-sm sm:text-base font-bold text-[#C9A227] uppercase tracking-wider mt-1.5">
+                    Founder &amp; Directress, Super Crown Foundation
+                  </p>
+                </div>
 
-                <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#3C2350] leading-tight tracking-tight">
-                  A Visionary with a <br />
-                  <span className="text-[#3C2350]">Lasting Impact.</span>
-                </h2>
+                <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#3C2350] leading-snug -mt-1">
+                  A Visionary with a Lasting Impact on Early Childhood Education
+                </h3>
 
                 <p className="font-sans text-base text-[#665D69] leading-relaxed">
-                  Founded by a dedicated educator with a deep passion for child development, Super Crown Foundation continues to be guided by a vision of creating a more empathetic, well-prepared generation of educators.
+                  Founded by Mrs. Rani Rajendran, a dedicated educator and pioneer with a deep passion for child development, Super Crown Foundation continues to be guided by her vision of creating a more empathetic, highly skilled, and well-prepared generation of Montessori educators.
                 </p>
 
                 {/* Quotation Box */}
-                <div className="bg-[#FBF4E4] p-6 sm:p-7 rounded-2xl border-l-4 border-[#C9A227] relative mt-2">
+                <div className="bg-[#FBF4E4] p-6 sm:p-7 rounded-2xl border-l-4 border-[#C9A227] relative mt-2 shadow-xs">
                   <Quote className="w-8 h-8 text-[#C9A227]/40 mb-2" />
                   <p className="font-heading text-lg sm:text-xl font-bold italic text-[#3C2350] mb-3 leading-snug">
                     &ldquo;Education is not just about teaching, but about transforming lives.&rdquo;
                   </p>
                   <span className="font-sans text-xs font-extrabold text-[#665D69] uppercase tracking-wider block">
-                    — Founder, Super Crown Foundation
+                    — Mrs. Rani Rajendran, Founder &amp; Directress
                   </span>
                 </div>
               </div>

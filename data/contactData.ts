@@ -35,11 +35,11 @@ export const CONTACT_INFO: ContactInfo = {
   ],
   phones: [
     {
-      display: "086670 43942",
+      display: "+91 86670 43942",
       tel: "+918667043942",
     },
     {
-      display: "96001 51377",
+      display: "+91 96001 51377",
       tel: "+919600151377",
     },
   ],

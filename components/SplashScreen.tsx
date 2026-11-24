@@ -229,6 +229,19 @@ export default function SplashScreen() {
             SUPER CROWN FOUNDATION
           </h1>
 
+          {/* Since 2011 Heritage Tag */}
+          <div
+            className={`flex items-center justify-center md:justify-start transition-all duration-600 ease-out mt-1 sm:mt-1.5 ${
+              lineIndex >= 1
+                ? "opacity-100 translate-x-0"
+                : "opacity-0 -translate-x-6 md:-translate-x-10"
+            }`}
+          >
+            <span className="font-sans text-xs sm:text-sm md:text-base font-extrabold tracking-[0.25em] text-[#A77B20] uppercase">
+              SINCE 2011
+            </span>
+          </div>
+
           {/* 
             LINE 2: (Educational & Charitable Trust)
             Font size: 20–23px.

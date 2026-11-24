@@ -20,9 +20,14 @@ export default function Footer() {
               <div className="w-11 h-11 rounded-xl bg-white p-1 flex items-center justify-center border border-[#C9A227] shadow-md">
                 <img src="/logo.png" alt="Super Crown Foundation Logo" className="w-full h-full object-contain" />
               </div>
-              <span className="font-heading font-extrabold text-lg text-white">
-                SUPER CROWN <span className="text-[#C9A227] font-normal">FOUNDATION</span>
-              </span>
+              <div className="flex flex-col leading-tight">
+                <span className="font-heading font-extrabold text-lg text-white">
+                  SUPER CROWN <span className="text-[#C9A227] font-normal">FOUNDATION</span>
+                </span>
+                <span className="text-[9px] font-sans font-extrabold tracking-[0.18em] text-[#C9A24D] uppercase mt-0.5">
+                  SINCE 2011
+                </span>
+              </div>
             </Link>
 
             <p className="font-sans text-sm text-[#C9A227] font-semibold italic">

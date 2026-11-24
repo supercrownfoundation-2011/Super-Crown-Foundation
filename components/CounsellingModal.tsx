@@ -371,14 +371,14 @@ export default function CounsellingModal({
                     href="tel:+919600151377"
                     className="font-bold text-[#3C2350] hover:text-[#C9A227] transition-colors"
                   >
-                    96001 51377
+                    +91 96001 51377
                   </a>{" "}
                   /{" "}
                   <a
                     href="tel:+918667043942"
                     className="font-bold text-[#3C2350] hover:text-[#C9A227] transition-colors"
                   >
-                    086670 43942
+                    +91 86670 43942
                   </a>
                 </span>
               </div>
