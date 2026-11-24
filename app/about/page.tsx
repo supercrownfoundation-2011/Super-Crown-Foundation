@@ -124,7 +124,7 @@ export default function AboutPage() {
               <div className="lg:col-span-6 relative rounded-3xl overflow-hidden border border-[#E6E0E8] bg-[#FAF8F5] shadow-xl min-h-[260px] h-[300px] sm:h-[450px]">
                 <img
                   src="/images/authentic/about_story_authentic.webp"
-                  alt="Super Crown Foundation Prepared Learning Environment and Workshop"
+                  alt="Super Crown Foundation Montessori Practical Apparatus Lab and Prepared Environment"
                   className="w-full h-full object-cover"
                 />
               </div>
