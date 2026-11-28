@@ -61,7 +61,10 @@ export default function Footer() {
                 <Link href="/gallery" className="hover:text-[#C9A24D] transition-colors">Campus Gallery</Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-[#C9A24D] transition-colors">Blog & Insights</Link>
+                <Link href="/blog" className="hover:text-[#C9A24D] transition-colors">Blog &amp; Insights</Link>
+              </li>
+              <li>
+                <Link href="/#reviews" className="hover:text-[#C9A24D] transition-colors">Student Reviews</Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-[#C9A24D] transition-colors">Contact Us</Link>

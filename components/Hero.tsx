@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, HeartHandshake, CheckCircle2, GraduationCap } from "lucide-react";
+import { ArrowRight, HeartHandshake, CheckCircle2, GraduationCap, Star } from "lucide-react";
 import CounsellingModal from "./CounsellingModal";
 import TextReveal from "./TextReveal";
 import Particles from "./react-bits/Particles";
@@ -40,6 +40,25 @@ export default function Hero() {
             <TextReveal delayMs={140} as="p" className="font-sans text-sm sm:text-base md:text-lg text-[#665D69] max-w-xl mx-auto leading-relaxed">
               Build the knowledge, confidence, and practical skills to create meaningful learning experiences for children through Montessori education.
             </TextReveal>
+
+            {/* Above-the-fold Social Proof Trust Badge */}
+            <a
+              href="#reviews"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 border border-[#C9A227]/40 shadow-2xs hover:shadow-md hover:border-[#C9A227] hover:bg-white transition-all group backdrop-blur-xs text-xs font-bold text-[#3C2350] active:scale-95"
+              title="Jump to Student Reviews"
+            >
+              <div className="flex text-[#C9A227] gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-3.5 h-3.5 fill-current" />
+                ))}
+              </div>
+              <span className="font-heading font-extrabold text-[#3C2350]">5.0</span>
+              <span className="text-[#665D69] font-normal hidden sm:inline">| 26+ Verified Reviews</span>
+              <span className="text-[#C9A227] font-extrabold text-[11px] uppercase tracking-wider flex items-center gap-1 group-hover:underline ml-0.5">
+                Read Reviews
+                <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-0.5" />
+              </span>
+            </a>
 
             {/* Dual CTAs */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2 w-full sm:w-auto">
