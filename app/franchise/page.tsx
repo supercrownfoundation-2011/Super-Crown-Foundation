@@ -553,15 +553,20 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/about_story_authentic.webp"
-                      alt="Established Brand Identity at Super Crown Foundation"
+                      src="/images/authentic/supercrown_legacy_training.webp"
+                      alt="Established Brand Identity at Super Crown Foundation with Official Wall Banner"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
                       <ShieldCheck className="w-5 h-5 text-[#C9A227]" />
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
+                        ESTABLISHED 2011
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -586,15 +591,20 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/campus_apparatus.webp"
-                      alt="Academic and Montessori Apparatus Support"
+                      src="/images/authentic/blog_math_materials.webp"
+                      alt="Structured Academic Curriculum Materials and Montessori Apparatus"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
                       <BookOpen className="w-5 h-5 text-[#C9A227]" />
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
+                        CURRICULUM APPARATUS
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -620,14 +630,19 @@ export default function FranchisePage() {
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
                       src="/images/authentic/hero_authentic_lab.webp"
-                      alt="Comprehensive Faculty and Educator Training Support"
+                      alt="Comprehensive Faculty and Educator Training Lab in Progress"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
                       <GraduationCap className="w-5 h-5 text-[#C9A227]" />
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
+                        TRAINING LAB SESSIONS
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -652,15 +667,20 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/about_cta_authentic.webp"
-                      alt="Marketing Guidance and Student Admission Collaterals"
+                      src="/images/authentic/authentic_img_7547.webp"
+                      alt="Super Crown Foundation Marketing Guidance and Branded Banner Collaterals"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
                       <Target className="w-5 h-5 text-[#C9A227]" />
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
+                        BRAND COLLATERALS
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -686,14 +706,19 @@ export default function FranchisePage() {
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
                       src="/images/authentic/campus_prepared_env.webp"
-                      alt="Operational Assistance and Centre Setup Advisory"
+                      alt="Operational Assistance and Prepared Environment Centre Setup"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
                       <Building className="w-5 h-5 text-[#C9A227]" />
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
+                        CENTRE INFRASTRUCTURE
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -745,14 +770,19 @@ export default function FranchisePage() {
                   <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
                     <Image
                       src="/images/authentic/course_teaching_aids.webp"
-                      alt="Academic Support and Curriculum Manuals"
+                      alt="Academic Support and Structured Curriculum Manuals"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
                       PILLAR 01
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
+                        CURRICULUM
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -777,15 +807,20 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/about_hero_authentic.webp"
-                      alt="Marketing Support and Branding Guidance"
+                      src="/images/authentic/about_story_authentic.webp"
+                      alt="Marketing Support and Institutional Branding Guidance"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
                       PILLAR 02
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
+                        MARKETING
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -810,15 +845,20 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/hero_authentic_guidance.webp"
-                      alt="Faculty and Operational Training Support"
+                      src="/images/authentic/campus_collaborative.webp"
+                      alt="Faculty Enablement and Collaborative Training Demonstrations"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
                       PILLAR 03
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
+                        TRAINING
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -844,14 +884,19 @@ export default function FranchisePage() {
                   <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
                     <Image
                       src="/images/authentic/campus_mentorship.webp"
-                      alt="Ongoing Assistance and Mentorship"
+                      alt="Dedicated Ongoing Mentorship and Continuous Partner Assistance"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                     <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
                       PILLAR 04
+                    </div>
+                    <div className="absolute bottom-3 left-3.5">
+                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
+                        MENTORSHIP
+                      </span>
                     </div>
                   </div>
                   <div className="p-6">
