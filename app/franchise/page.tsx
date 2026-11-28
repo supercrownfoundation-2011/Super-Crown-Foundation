@@ -548,88 +548,168 @@ export default function FranchisePage() {
             {/* 5 Benefits Grid (from PDF Page 12) */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               
-              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              {/* Card 1 */}
+              <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
-                    <ShieldCheck className="w-6 h-6 text-[#C9A227]" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/about_story_authentic.webp"
+                      alt="Established Brand Identity at Super Crown Foundation"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
+                      <ShieldCheck className="w-5 h-5 text-[#C9A227]" />
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
-                    Established Brand Identity
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Operate under a respected institutional name founded in 2011 with a legacy of preparing thousands of teachers.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Established Brand Identity
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Operate under a respected institutional name founded in 2011 with a legacy of preparing thousands of teachers.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-5 text-xs font-semibold text-[#3C2350]">
-                  Immediate Community Trust
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center justify-between text-xs font-semibold text-[#3C2350]">
+                    <span>Immediate Community Trust</span>
+                    <CheckCircle2 className="w-4 h-4 text-[#C9A227]" />
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              {/* Card 2 */}
+              <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
-                    <BookOpen className="w-6 h-6 text-[#C9A227]" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/campus_apparatus.webp"
+                      alt="Academic and Montessori Apparatus Support"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
+                      <BookOpen className="w-5 h-5 text-[#C9A227]" />
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
-                    Academic Support
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Full access to structured curriculum manuals, lesson syllabi, study materials, and practical activity guidelines.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Academic Support
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Full access to structured curriculum manuals, lesson syllabi, study materials, and practical activity guidelines.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-5 text-xs font-semibold text-[#3C2350]">
-                  Complete Course Syllabus
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center justify-between text-xs font-semibold text-[#3C2350]">
+                    <span>Complete Course Syllabus</span>
+                    <CheckCircle2 className="w-4 h-4 text-[#C9A227]" />
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              {/* Card 3 */}
+              <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
-                    <GraduationCap className="w-6 h-6 text-[#C9A227]" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/hero_authentic_lab.webp"
+                      alt="Comprehensive Faculty and Educator Training Support"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
+                      <GraduationCap className="w-5 h-5 text-[#C9A227]" />
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
-                    Training Support
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Extensive training for your faculty and academic directors to ensure your classroom teaching matches central standards.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Training Support
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Extensive training for your faculty and academic directors to ensure your classroom teaching matches central standards.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-5 text-xs font-semibold text-[#3C2350]">
-                  Faculty Enablement
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center justify-between text-xs font-semibold text-[#3C2350]">
+                    <span>Faculty Enablement</span>
+                    <CheckCircle2 className="w-4 h-4 text-[#C9A227]" />
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              {/* Card 4 */}
+              <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
-                    <Target className="w-6 h-6 text-[#C9A227]" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/about_cta_authentic.webp"
+                      alt="Marketing Guidance and Student Admission Collaterals"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
+                      <Target className="w-5 h-5 text-[#C9A227]" />
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
-                    Marketing Guidance
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Branded collaterals, digital promotional materials, banner artworks, and strategic advice on student admissions.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Marketing Guidance
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Branded collaterals, digital promotional materials, banner artworks, and strategic advice on student admissions.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-5 text-xs font-semibold text-[#3C2350]">
-                  Student Enrolment Support
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center justify-between text-xs font-semibold text-[#3C2350]">
+                    <span>Student Enrolment Support</span>
+                    <CheckCircle2 className="w-4 h-4 text-[#C9A227]" />
+                  </div>
                 </div>
               </div>
 
-              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between md:col-span-2 lg:col-span-1">
+              {/* Card 5 */}
+              <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group md:col-span-2 lg:col-span-1">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
-                    <Building className="w-6 h-6 text-[#C9A227]" />
+                  <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/campus_prepared_env.webp"
+                      alt="Operational Assistance and Centre Setup Advisory"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 w-10 h-10 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 flex items-center justify-center text-[#3C2350] shadow-md">
+                      <Building className="w-5 h-5 text-[#C9A227]" />
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
-                    Operational Assistance
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Step-by-step guidance on centre layout, batch scheduling, enquiry handling, and daily administrative best practices.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Operational Assistance
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Step-by-step guidance on centre layout, batch scheduling, enquiry handling, and daily administrative best practices.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-5 text-xs font-semibold text-[#3C2350]">
-                  Streamlined Centre Setup
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center justify-between text-xs font-semibold text-[#3C2350]">
+                    <span>Streamlined Centre Setup</span>
+                    <CheckCircle2 className="w-4 h-4 text-[#C9A227]" />
+                  </div>
                 </div>
               </div>
 
@@ -659,75 +739,135 @@ export default function FranchisePage() {
             {/* 4 Categories (from PDF Page 13) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               
-              <div className="rounded-2xl p-6 bg-[#FAF8F5] border border-[#E6E0E8] flex flex-col justify-between">
+              {/* Pillar 1 */}
+              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="text-[10px] font-mono font-bold text-[#C9A227] uppercase tracking-wider mb-3">
-                    PILLAR 01
+                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/course_teaching_aids.webp"
+                      alt="Academic Support and Curriculum Manuals"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
+                      PILLAR 01
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2">
-                    Academic Support
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Complete curriculum access and teaching guidance.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Academic Support
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Complete curriculum access and teaching guidance.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-6 pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                  <span>Curriculum Manuals</span>
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
+                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
+                    <span>Curriculum Manuals</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="rounded-2xl p-6 bg-[#FAF8F5] border border-[#E6E0E8] flex flex-col justify-between">
+              {/* Pillar 2 */}
+              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="text-[10px] font-mono font-bold text-[#C9A227] uppercase tracking-wider mb-3">
-                    PILLAR 02
+                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/about_hero_authentic.webp"
+                      alt="Marketing Support and Branding Guidance"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
+                      PILLAR 02
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2">
-                    Marketing Support
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Promotional materials and branding guidance.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Marketing Support
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Promotional materials and branding guidance.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-6 pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                  <span>Creative Assets</span>
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
+                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
+                    <span>Creative Assets</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="rounded-2xl p-6 bg-[#FAF8F5] border border-[#E6E0E8] flex flex-col justify-between">
+              {/* Pillar 3 */}
+              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="text-[10px] font-mono font-bold text-[#C9A227] uppercase tracking-wider mb-3">
-                    PILLAR 03
+                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/hero_authentic_guidance.webp"
+                      alt="Faculty and Operational Training Support"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
+                      PILLAR 03
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2">
-                    Training Support
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Faculty and operational training.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Training Support
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Faculty and operational training.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-6 pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                  <span>Faculty Enablement</span>
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
+                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
+                    <span>Faculty Enablement</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="rounded-2xl p-6 bg-[#FAF8F5] border border-[#E6E0E8] flex flex-col justify-between">
+              {/* Pillar 4 */}
+              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
-                  <div className="text-[10px] font-mono font-bold text-[#C9A227] uppercase tracking-wider mb-3">
-                    PILLAR 04
+                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
+                    <Image
+                      src="/images/authentic/campus_mentorship.webp"
+                      alt="Ongoing Assistance and Mentorship"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
+                      PILLAR 04
+                    </div>
                   </div>
-                  <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2">
-                    Ongoing Assistance
-                  </h3>
-                  <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                    Continuous guidance for franchise partners.
-                  </p>
+                  <div className="p-6">
+                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
+                      Ongoing Assistance
+                    </h3>
+                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
+                      Continuous guidance for franchise partners.
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-6 pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                  <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                  <span>Dedicated Mentorship</span>
+                <div className="px-6 pb-6 pt-0">
+                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
+                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
+                    <span>Dedicated Mentorship</span>
+                  </div>
                 </div>
               </div>
 
