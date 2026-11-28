@@ -10,6 +10,7 @@ import LearningCommunityReviews from "@/components/LearningCommunityReviews";
 import BentoGallery from "@/components/BentoGallery";
 import FAQSection from "@/components/FAQSection";
 import HomepageFranchiseSection from "@/components/HomepageFranchiseSection";
+import FranchiseNetworkSection from "@/components/FranchiseNetworkSection";
 import FinalCTA from "@/components/FinalCTA";
 import CounsellingForm from "@/components/CounsellingForm";
 import Footer from "@/components/Footer";
@@ -49,7 +50,10 @@ export default function Home() {
         {/* SECTION 09: FRANCHISE OPPORTUNITY */}
         <HomepageFranchiseSection />
 
-        {/* SECTION 10: FINAL CTA BANNER */}
+        {/* SECTION 10: OUR GROWING FRANCHISE NETWORK */}
+        <FranchiseNetworkSection />
+
+        {/* SECTION 11: FINAL CTA BANNER */}
         <FinalCTA />
 
         {/* INTEGRATED COUNSELLING FORM */}
