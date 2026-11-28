@@ -18,8 +18,6 @@ export default function FranchiseEnquiryForm() {
     phone: "",
     email: "",
     city: "",
-    budget: "₹2,00,000 – ₹5,00,000 (Franchise Fee + Initial Setup)",
-    experience: "Educator / Teacher",
     message: "",
   });
 
@@ -61,8 +59,6 @@ export default function FranchiseEnquiryForm() {
     try {
       const formattedMessage = [
         `Preferred Location: ${formData.city.trim()}`,
-        `Investment Budget: ${formData.budget}`,
-        `Background / Experience: ${formData.experience}`,
         formData.message.trim() ? `Additional Notes: ${formData.message.trim()}` : "",
       ]
         .filter(Boolean)
@@ -120,8 +116,6 @@ export default function FranchiseEnquiryForm() {
       phone: "",
       email: "",
       city: "",
-      budget: "₹2,00,000 – ₹5,00,000 (Franchise Fee + Initial Setup)",
-      experience: "Educator / Teacher",
       message: "",
     });
   };
@@ -269,66 +263,6 @@ export default function FranchiseEnquiryForm() {
               {errors.city && (
                 <p className="text-red-500 text-xs mt-1.5">{errors.city}</p>
               )}
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            {/* Investment Budget */}
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#3C2350] mb-2">
-                Available Investment Budget
-              </label>
-              <select
-                value={formData.budget}
-                onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-[#E6E0E8] bg-[#FAF8F5] text-sm text-[#241828] transition-all focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#3C2350]/20 cursor-pointer"
-              >
-                <option value="₹2,00,000 – ₹5,00,000 (Franchise Fee + Initial Setup)">
-                  ₹2,00,000 – ₹5,00,000 (Franchise Fee + Initial Setup)
-                </option>
-                <option value="₹5,00,000 – ₹10,00,000 (Comprehensive Centre Setup)">
-                  ₹5,00,000 – ₹10,00,000 (Comprehensive Centre Setup)
-                </option>
-                <option value="₹10,00,000+ (Multi-classroom / Regional Academy)">
-                  ₹10,00,000+ (Multi-classroom / Regional Academy)
-                </option>
-                <option value="Exploring / To Be Discussed in Consultation">
-                  Exploring / To Be Discussed in Consultation
-                </option>
-              </select>
-              <p className="text-[11px] text-[#665D69] mt-1.5">
-                Note: ₹2,00,000 is the franchise fee. Premises &amp; interior setup depend on your centre location.
-              </p>
-            </div>
-
-            {/* Relevant Education / Business Experience */}
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-[#3C2350] mb-2">
-                Relevant Background / Experience
-              </label>
-              <select
-                value={formData.experience}
-                onChange={(e) => setFormData({ ...formData, experience: e.target.value })}
-                className="w-full px-4 py-3 rounded-xl border border-[#E6E0E8] bg-[#FAF8F5] text-sm text-[#241828] transition-all focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#3C2350]/20 cursor-pointer"
-              >
-                <option value="Educator / Teacher">Educator / Teacher</option>
-                <option value="School / Preschool Administrator">
-                  School / Preschool Administrator
-                </option>
-                <option value="Entrepreneur / Business Owner">
-                  Entrepreneur / Business Owner
-                </option>
-                <option value="Working Professional entering Education">
-                  Working Professional entering Education
-                </option>
-                <option value="Passionate about Women's Empowerment">
-                  Passionate about Women&apos;s Empowerment
-                </option>
-                <option value="Other Professional Background">Other Professional Background</option>
-              </select>
-              <p className="text-[11px] text-[#665D69] mt-1.5">
-                Helps us customize academic training and onboarding to your strengths.
-              </p>
             </div>
           </div>
 
