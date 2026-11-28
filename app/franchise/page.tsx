@@ -528,119 +528,9 @@ export default function FranchisePage() {
         </section>
 
         {/* ========================================================= */}
-        {/* SECTION 4: TRAINING METHODOLOGY */}
-        {/* ========================================================= */}
-        <section className="py-20 lg:py-24 bg-white border-y border-[#E6E0E8]">
-          <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
-            <div className="max-w-3xl mb-14">
-              <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
-                ACADEMIC RIGOUR
-              </span>
-              <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#3C2350] tracking-tight leading-tight">
-                Learning That Goes Beyond Theory
-              </h2>
-              <p className="font-sans text-base sm:text-lg text-[#665D69] mt-4 leading-relaxed">
-                Our training approach prepares students to understand educational concepts and apply them in real classroom environments.
-              </p>
-            </div>
-
-            {/* 7 Learning Elements Sequence (from PDF Page 8) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-4">
-              
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">01</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Theory Sessions
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Core educational philosophies &amp; foundational learning principles.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">02</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Practical Demos
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Faculty-led demonstrations of apparatus and presentations.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">03</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Classroom Observation
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Direct observations of active classroom environments &amp; dynamics.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">04</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Montessori Activities
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Hands-on practice with specialized apparatus for mastery.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">05</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Assignments
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Structured coursework reinforcing curriculum planning.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">06</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Assessments
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Practical viva, portfolio reviews &amp; written evaluations.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-[#FAF8F5] p-5 rounded-2xl border border-[#E6E0E8] flex flex-col justify-between relative group hover:border-[#3C2350] transition-colors">
-                <div>
-                  <span className="text-xs font-mono font-extrabold text-[#C9A24D] block mb-3">07</span>
-                  <h3 className="font-heading text-sm font-bold text-[#3C2350] mb-1.5">
-                    Interactive Learning
-                  </h3>
-                  <p className="font-sans text-xs text-[#665D69] leading-relaxed">
-                    Simulated teaching, peer discussions &amp; feedback loops.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </section>
-
-        {/* ========================================================= */}
         {/* SECTION 5: WHY PARTNER WITH SUPER CROWN FOUNDATION? */}
         {/* ========================================================= */}
-        <section className="py-20 lg:py-24 bg-[#FAF8F5]">
+        <section className="py-20 lg:py-24 bg-white border-y border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
             
             <div className="max-w-3xl mb-14">
@@ -658,9 +548,9 @@ export default function FranchisePage() {
             {/* 5 Benefits Grid (from PDF Page 12) */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               
-              <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#FAF8F5] border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
+                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
                     <ShieldCheck className="w-6 h-6 text-[#C9A227]" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
@@ -675,9 +565,9 @@ export default function FranchisePage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#FAF8F5] border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
+                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
                     <BookOpen className="w-6 h-6 text-[#C9A227]" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
@@ -692,9 +582,9 @@ export default function FranchisePage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#FAF8F5] border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
+                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
                     <GraduationCap className="w-6 h-6 text-[#C9A227]" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
@@ -709,9 +599,9 @@ export default function FranchisePage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
+              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#FAF8F5] border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
+                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
                     <Target className="w-6 h-6 text-[#C9A227]" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
@@ -726,9 +616,9 @@ export default function FranchisePage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between md:col-span-2 lg:col-span-1">
+              <div className="bg-[#FAF8F5] rounded-2xl p-7 border border-[#E6E0E8] shadow-xs flex flex-col justify-between md:col-span-2 lg:col-span-1">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-[#FAF8F5] border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
+                  <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] flex items-center justify-center mb-5 text-[#3C2350]">
                     <Building className="w-6 h-6 text-[#C9A227]" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2.5">
