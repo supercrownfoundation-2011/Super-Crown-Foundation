@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/authentic/supercrown_legacy_training.webp",
-        width: 1200,
-        height: 630,
-        alt: "Super Crown Foundation Montessori Teacher Training Franchise Opportunity",
+        url: "/images/authentic/franchise_hero_uploaded.webp",
+        width: 1024,
+        height: 898,
+        alt: "Super Crown Foundation Faculty and Montessori Educator Cohort at the Training Centre",
       },
     ],
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "Montessori Teacher Training Franchise Opportunity | Super Crown Foundation",
     description:
       "Explore the Super Crown Foundation franchise opportunity in Montessori teacher training. Learn about academic support, training, investment and partnership enquiries.",
-    images: ["/images/authentic/supercrown_legacy_training.webp"],
+    images: ["/images/authentic/franchise_hero_uploaded.webp"],
   },
 };
 
@@ -130,10 +130,10 @@ export default function FranchisePage() {
 
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
-              
+
               {/* Left Column (Content - 7 cols) */}
               <div className="lg:col-span-7 flex flex-col gap-6">
-                
+
                 {/* Eyebrow Pill */}
                 <div className="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-[#C9A227]/40 shadow-xs">
                   <span className="w-2 h-2 rounded-full bg-[#C9A227] animate-pulse" />
@@ -203,16 +203,16 @@ export default function FranchisePage() {
 
                   <div className="relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl bg-[#3C2350] aspect-[4/3] sm:aspect-[4/3]">
                     <Image
-                      src="/images/authentic/supercrown_legacy_training.webp"
-                      alt="Super Crown Foundation Montessori classroom teacher training session in progress"
+                      src="/images/authentic/franchise_hero_uploaded.webp"
+                      alt="Super Crown Foundation Faculty and Montessori Educator Cohort at the Training Centre"
                       fill
                       priority
                       sizes="(max-width: 1024px) 100vw, 500px"
-                      className="object-cover object-center"
+                      className="object-cover object-top"
                     />
 
                     {/* Gradient Overlay for institutional legibility */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#3C2350]/80 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#3C2350]/75 via-transparent to-transparent" />
 
                     {/* Bottom Caption Pill */}
                     <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 border border-[#E6E0E8] shadow-lg flex items-center justify-between">
@@ -246,7 +246,7 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section id="about-opportunity" className="py-20 lg:py-24 bg-white border-b border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="max-w-3xl mb-14">
               <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
                 ABOUT THE OPPORTUNITY
@@ -261,7 +261,7 @@ export default function FranchisePage() {
 
             {/* 4 Core Mission Pillars */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              
+
               <div className="bg-[#FAF8F5] rounded-2xl p-6 border border-[#E6E0E8] hover:border-[#C9A24D]/60 transition-all flex flex-col justify-between">
                 <div>
                   <div className="w-12 h-12 rounded-xl bg-white border border-[#E6E0E8] text-[#3C2350] flex items-center justify-center mb-5 shadow-2xs">
@@ -364,7 +364,7 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section className="py-20 lg:py-24 bg-[#FAF8F5]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
               <div className="max-w-2xl">
                 <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
@@ -389,7 +389,7 @@ export default function FranchisePage() {
 
             {/* 6 Programme Cards (from PDF Page 7) */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              
+
               {/* Card 1 */}
               <div className="bg-white rounded-2xl p-7 border border-[#E6E0E8] hover:border-[#3C2350]/40 hover:shadow-saas transition-all flex flex-col justify-between">
                 <div>
@@ -532,7 +532,7 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section className="py-20 lg:py-24 bg-white border-y border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="max-w-3xl mb-14">
               <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
                 PARTNERSHIP ADVANTAGES
@@ -547,14 +547,14 @@ export default function FranchisePage() {
 
             {/* 5 Benefits Grid (from PDF Page 12) */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              
+
               {/* Card 1 */}
               <div className="bg-[#FAF8F5] rounded-3xl border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/stock/franchise_brand_identity.webp"
-                      alt="Established Brand Identity and Institutional Prestige"
+                      src="/images/authentic/supercrown_legacy_training.webp"
+                      alt="Established Brand Identity at Super Crown Foundation with Official Wall Banner"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -591,8 +591,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/stock/franchise_academic_support.webp"
-                      alt="Structured Academic Curriculum Materials and Teacher Training Manuals"
+                      src="/images/authentic/blog_math_materials.webp"
+                      alt="Structured Academic Curriculum Materials and Montessori Apparatus"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -603,7 +603,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        CURRICULUM MANUALS
+                        CURRICULUM APPARATUS
                       </span>
                     </div>
                   </div>
@@ -629,8 +629,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/stock/franchise_training_support.webp"
-                      alt="Professional Faculty and Educator Training Seminar in Progress"
+                      src="/images/authentic/hero_authentic_lab.webp"
+                      alt="Comprehensive Faculty and Educator Training Lab in Progress"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -641,7 +641,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        TRAINING SEMINARS
+                        TRAINING LAB SESSIONS
                       </span>
                     </div>
                   </div>
@@ -667,8 +667,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/stock/franchise_marketing_guidance.webp"
-                      alt="Educational Marketing Guidance, Admission Strategy and Brand Collaterals"
+                      src="/images/authentic/authentic_img_7547.webp"
+                      alt="Super Crown Foundation Marketing Guidance and Branded Banner Collaterals"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -679,7 +679,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        MARKETING KIT
+                        BRAND COLLATERALS
                       </span>
                     </div>
                   </div>
@@ -705,8 +705,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/stock/franchise_operational_assistance.webp"
-                      alt="Operational Assistance and Prepared Montessori Classroom Layout"
+                      src="/images/authentic/campus_prepared_env.webp"
+                      alt="Operational Assistance and Prepared Environment Centre Setup"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -717,7 +717,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        CENTRE LAYOUT
+                        CENTRE INFRASTRUCTURE
                       </span>
                     </div>
                   </div>
@@ -750,7 +750,7 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section className="py-20 lg:py-24 bg-[#FAF8F5] border-y border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="text-center max-w-2xl mx-auto mb-14">
               <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
                 TRANSPARENT TERMS
@@ -772,7 +772,7 @@ export default function FranchisePage() {
 
               {/* Price Figures Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8 border-b border-[#E6E0E8]">
-                
+
                 {/* Franchise Fee */}
                 <div>
                   <span className="text-xs font-bold text-[#665D69] uppercase tracking-wider block mb-1">
@@ -850,7 +850,7 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section className="py-20 lg:py-24 bg-white border-b border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="max-w-3xl mb-14">
               <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
                 FOUR-STEP PROCESS
@@ -865,7 +865,7 @@ export default function FranchisePage() {
 
             {/* 4 Steps */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              
+
               {/* Step 1 */}
               <div className="relative bg-[#FAF8F5] rounded-2xl p-6 border border-[#E6E0E8]">
                 <div className="w-10 h-10 rounded-xl bg-[#3C2350] text-[#C9A24D] font-heading font-extrabold text-sm flex items-center justify-center mb-5">
@@ -937,9 +937,9 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section id="franchise-enquiry" className="py-20 lg:py-24 bg-[#FAF8F5] scroll-mt-24">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-              
+
               {/* Left Column (Information & Trust - 5 cols) */}
               <div className="lg:col-span-5 flex flex-col gap-6">
                 <div>
@@ -1016,9 +1016,9 @@ export default function FranchisePage() {
         {/* ========================================================= */}
         <section className="py-20 lg:py-24 bg-white border-y border-[#E6E0E8]">
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-              
+
               {/* Left Column (Sticky Heading - 4 cols) */}
               <div className="lg:col-span-4 sticky top-28">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#FAF8F5] border border-[#E6E0E8] mb-3">
@@ -1065,7 +1065,7 @@ export default function FranchisePage() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#C9A227]/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="max-w-[1240px] mx-auto px-6 lg:px-12 relative z-10 text-center">
-            
+
             <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A24D] block mb-3">
               JOIN OUR GROWING NETWORK
             </span>
