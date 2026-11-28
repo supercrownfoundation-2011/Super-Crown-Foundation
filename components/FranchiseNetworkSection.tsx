@@ -173,13 +173,13 @@ export default function FranchiseNetworkSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto shrink-0">
-              <Link
-                href="/franchise"
+              <a
+                href="#franchise-enquiry"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#3C2350] hover:bg-[#291735] text-white font-heading font-extrabold text-xs sm:text-sm uppercase tracking-wider px-8 py-4 rounded-xl shadow-md hover:shadow-lg transition-all active:scale-[0.98] cursor-pointer group"
               >
                 <span>Explore Franchise Opportunities</span>
                 <ArrowRight className="w-4 h-4 text-[#C9A24D] transition-transform group-hover:translate-x-1" />
-              </Link>
+              </a>
             </div>
           </div>
         </ScrollReveal>

@@ -27,6 +27,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FranchiseEnquiryForm from "@/components/franchise/FranchiseEnquiryForm";
 import FranchiseFAQ from "@/components/franchise/FranchiseFAQ";
+import FranchiseNetworkSection from "@/components/FranchiseNetworkSection";
 import { CONTACT_INFO } from "@/data/contactData";
 
 export const metadata: Metadata = {
@@ -1026,6 +1027,11 @@ export default function FranchisePage() {
 
           </div>
         </section>
+
+        {/* ========================================================= */}
+        {/* OUR GROWING FRANCHISE NETWORK */}
+        {/* ========================================================= */}
+        <FranchiseNetworkSection />
 
         {/* ========================================================= */}
         {/* SECTION 9: FRANCHISE ENQUIRY FORM */}
