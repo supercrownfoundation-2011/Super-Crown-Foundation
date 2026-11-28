@@ -553,8 +553,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/supercrown_legacy_training.webp"
-                      alt="Established Brand Identity at Super Crown Foundation with Official Wall Banner"
+                      src="/images/stock/franchise_brand_identity.webp"
+                      alt="Established Brand Identity and Institutional Prestige"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -591,8 +591,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/blog_math_materials.webp"
-                      alt="Structured Academic Curriculum Materials and Montessori Apparatus"
+                      src="/images/stock/franchise_academic_support.webp"
+                      alt="Structured Academic Curriculum Materials and Teacher Training Manuals"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -603,7 +603,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        CURRICULUM APPARATUS
+                        CURRICULUM MANUALS
                       </span>
                     </div>
                   </div>
@@ -629,8 +629,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/hero_authentic_lab.webp"
-                      alt="Comprehensive Faculty and Educator Training Lab in Progress"
+                      src="/images/stock/franchise_training_support.webp"
+                      alt="Professional Faculty and Educator Training Seminar in Progress"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -641,7 +641,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        TRAINING LAB SESSIONS
+                        TRAINING SEMINARS
                       </span>
                     </div>
                   </div>
@@ -667,8 +667,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/authentic_img_7547.webp"
-                      alt="Super Crown Foundation Marketing Guidance and Branded Banner Collaterals"
+                      src="/images/stock/franchise_marketing_guidance.webp"
+                      alt="Educational Marketing Guidance, Admission Strategy and Brand Collaterals"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -679,7 +679,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        BRAND COLLATERALS
+                        MARKETING KIT
                       </span>
                     </div>
                   </div>
@@ -705,8 +705,8 @@ export default function FranchisePage() {
                 <div>
                   <div className="relative h-48 w-full overflow-hidden bg-[#3C2350]">
                     <Image
-                      src="/images/authentic/campus_prepared_env.webp"
-                      alt="Operational Assistance and Prepared Environment Centre Setup"
+                      src="/images/stock/franchise_operational_assistance.webp"
+                      alt="Operational Assistance and Prepared Montessori Classroom Layout"
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
@@ -717,7 +717,7 @@ export default function FranchisePage() {
                     </div>
                     <div className="absolute bottom-3 left-3.5">
                       <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/20">
-                        CENTRE INFRASTRUCTURE
+                        CENTRE LAYOUT
                       </span>
                     </div>
                   </div>
@@ -743,183 +743,7 @@ export default function FranchisePage() {
           </div>
         </section>
 
-        {/* ========================================================= */}
-        {/* SECTION 6: FRANCHISE SUPPORT */}
-        {/* ========================================================= */}
-        <section className="py-20 lg:py-24 bg-white border-t border-[#E6E0E8]">
-          <div className="max-w-[1240px] mx-auto px-6 lg:px-12">
-            
-            <div className="max-w-3xl mb-14">
-              <span className="text-[10px] sm:text-xs font-sans font-extrabold uppercase tracking-widest text-[#C9A227] block mb-2">
-                FOUR PILLARS OF ASSISTANCE
-              </span>
-              <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#3C2350] tracking-tight leading-tight">
-                Your Partner in Every Step
-              </h2>
-              <p className="font-sans text-base sm:text-lg text-[#665D69] mt-4 leading-relaxed">
-                We provide end-to-end support to help our franchise partners succeed and make a lasting impact in education.
-              </p>
-            </div>
 
-            {/* 4 Categories (from PDF Page 13) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              
-              {/* Pillar 1 */}
-              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
-                    <Image
-                      src="/images/authentic/course_teaching_aids.webp"
-                      alt="Academic Support and Structured Curriculum Manuals"
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
-                      PILLAR 01
-                    </div>
-                    <div className="absolute bottom-3 left-3.5">
-                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
-                        CURRICULUM
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
-                      Academic Support
-                    </h3>
-                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                      Complete curriculum access and teaching guidance.
-                    </p>
-                  </div>
-                </div>
-                <div className="px-6 pb-6 pt-0">
-                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                    <span>Curriculum Manuals</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Pillar 2 */}
-              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
-                    <Image
-                      src="/images/authentic/about_story_authentic.webp"
-                      alt="Marketing Support and Institutional Branding Guidance"
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
-                      PILLAR 02
-                    </div>
-                    <div className="absolute bottom-3 left-3.5">
-                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
-                        MARKETING
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
-                      Marketing Support
-                    </h3>
-                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                      Promotional materials and branding guidance.
-                    </p>
-                  </div>
-                </div>
-                <div className="px-6 pb-6 pt-0">
-                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                    <span>Creative Assets</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Pillar 3 */}
-              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
-                    <Image
-                      src="/images/authentic/campus_collaborative.webp"
-                      alt="Faculty Enablement and Collaborative Training Demonstrations"
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
-                      PILLAR 03
-                    </div>
-                    <div className="absolute bottom-3 left-3.5">
-                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
-                        TRAINING
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
-                      Training Support
-                    </h3>
-                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                      Faculty and operational training.
-                    </p>
-                  </div>
-                </div>
-                <div className="px-6 pb-6 pt-0">
-                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                    <span>Faculty Enablement</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Pillar 4 */}
-              <div className="rounded-3xl bg-[#FAF8F5] border border-[#E6E0E8] overflow-hidden hover:border-[#3C2350]/40 hover:shadow-saas transition-all duration-300 flex flex-col justify-between group">
-                <div>
-                  <div className="relative h-44 w-full overflow-hidden bg-[#3C2350]">
-                    <Image
-                      src="/images/authentic/campus_mentorship.webp"
-                      alt="Dedicated Ongoing Mentorship and Continuous Partner Assistance"
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                    <div className="absolute top-3.5 left-3.5 font-mono text-xs font-extrabold text-[#C9A24D] bg-[#3C2350]/90 backdrop-blur-md px-2.5 py-1 rounded-lg border border-[#C9A227]/40 shadow-sm">
-                      PILLAR 04
-                    </div>
-                    <div className="absolute bottom-3 left-3.5">
-                      <span className="text-[10px] font-mono font-bold text-white/90 bg-[#3C2350]/80 backdrop-blur-md px-2 py-0.5 rounded border border-white/20">
-                        MENTORSHIP
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-heading text-lg font-bold text-[#3C2350] mb-2 leading-snug">
-                      Ongoing Assistance
-                    </h3>
-                    <p className="font-sans text-xs sm:text-sm text-[#665D69] leading-relaxed">
-                      Continuous guidance for franchise partners.
-                    </p>
-                  </div>
-                </div>
-                <div className="px-6 pb-6 pt-0">
-                  <div className="pt-3 border-t border-[#E6E0E8] flex items-center gap-1.5 text-xs text-[#3C2350] font-medium">
-                    <Check className="w-3.5 h-3.5 text-[#C9A24D]" />
-                    <span>Dedicated Mentorship</span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </section>
 
         {/* ========================================================= */}
         {/* SECTION 7: INVESTMENT DETAILS (Prominent & Transparent) */}
