@@ -288,6 +288,25 @@ export default function Navbar() {
                     </li>
                   );
                 })}
+                <li>
+                  <Link
+                    href="/franchise"
+                    onClick={handleLinkClick}
+                    className={`flex items-center justify-between text-base font-extrabold py-3.5 px-4 rounded-2xl min-h-[44px] transition-all ${
+                      pathname === "/franchise"
+                        ? "bg-[#3C2350] text-[#C9A24D] shadow-sm"
+                        : "text-[#3C2350] bg-gradient-to-r from-white to-[#F3EEF6] border border-[#C9A227]/40 hover:border-[#3C2350]"
+                    }`}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span>Franchise Opportunity</span>
+                      <span className="text-[10px] bg-[#C9A227] text-[#3C2350] px-1.5 py-0.5 rounded font-extrabold uppercase">
+                        2026
+                      </span>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-[#C9A227]" />
+                  </Link>
+                </li>
               </ul>
             </div>
 

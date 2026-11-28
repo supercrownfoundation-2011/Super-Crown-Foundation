@@ -48,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${siteUrl}/franchise`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
   ];
 
   const courseRoutes: MetadataRoute.Sitemap = Object.keys(DETAILED_COURSES).map((slug) => ({

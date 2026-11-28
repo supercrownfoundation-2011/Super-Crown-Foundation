@@ -69,6 +69,17 @@ export default function Footer() {
               <li>
                 <Link href="/contact" className="hover:text-[#C9A24D] transition-colors">Contact Us</Link>
               </li>
+              <li className="pt-1">
+                <Link
+                  href="/franchise"
+                  className="hover:text-white transition-colors inline-flex items-center gap-1.5 font-bold text-[#C9A24D] bg-[#FAF8F5]/10 px-2.5 py-1 rounded-lg border border-[#C9A227]/30"
+                >
+                  <span>Franchise Opportunity</span>
+                  <span className="text-[9px] bg-[#C9A227] text-[#3C2350] px-1.5 py-0.2 rounded font-extrabold uppercase">
+                    2026
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 

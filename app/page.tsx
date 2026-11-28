@@ -9,6 +9,7 @@ import WhySuperCrownSplit from "@/components/WhySuperCrownSplit";
 import LearningCommunityReviews from "@/components/LearningCommunityReviews";
 import BentoGallery from "@/components/BentoGallery";
 import FAQSection from "@/components/FAQSection";
+import HomepageFranchiseSection from "@/components/HomepageFranchiseSection";
 import FinalCTA from "@/components/FinalCTA";
 import CounsellingForm from "@/components/CounsellingForm";
 import Footer from "@/components/Footer";
@@ -45,7 +46,10 @@ export default function Home() {
         {/* SECTION 08: FAQ ACCORDION */}
         <FAQSection />
 
-        {/* SECTION 09: FINAL CTA BANNER */}
+        {/* SECTION 09: FRANCHISE OPPORTUNITY */}
+        <HomepageFranchiseSection />
+
+        {/* SECTION 10: FINAL CTA BANNER */}
         <FinalCTA />
 
         {/* INTEGRATED COUNSELLING FORM */}
